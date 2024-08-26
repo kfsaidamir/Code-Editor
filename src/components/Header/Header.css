@@ -1,0 +1,37 @@
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-img {
+    width: 10%;
+}
+
+.header-navigate {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.img-width {
+    width: 100%;
+}
+
+@media (max-width:769px) {
+    .header-img {
+        width: 15%;
+    }
+}
+
+@media (max-width:426px) {
+    .header-img {
+        width: 20%;
+    }
+}
+
+@media (max-width:376px) {
+    .header-img {
+        width: 30%;
+    }
+}

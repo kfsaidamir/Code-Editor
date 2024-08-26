@@ -1,0 +1,15 @@
+.main-element {
+    margin-left: 12%;
+}
+
+@media (max-width:769px) {
+    .main-element {
+        margin-left: 0%;
+    }
+}
+
+@media (max-width:921px) {
+    .main-element {
+        margin-left: 0%;
+    }
+}
