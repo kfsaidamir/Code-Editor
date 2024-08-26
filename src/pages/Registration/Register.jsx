@@ -36,7 +36,7 @@ const Register = () => {
 
       setTimeout(() => {
         setSuccess("");
-        navigate("/home");
+        navigate("/code-editor");
       }, 2000);
     } else {
       setError("Login or password is incorrect");
